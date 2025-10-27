@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson20.data
+package tat.mukhutdinov.juiceTracker.data
 
 import android.content.Context
 

@@ -1,11 +1,11 @@
-package tat.mukhutdinov.lesson20.ui
+package tat.mukhutdinov.juiceTracker.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import tat.mukhutdinov.lesson20.data.Juice
-import tat.mukhutdinov.lesson20.data.JuiceRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
+import tat.mukhutdinov.juiceTracker.data.Juice
+import tat.mukhutdinov.juiceTracker.data.JuiceRepository
 
 /**
  * ViewModel to retrieve, add, edit or delete a juice entry

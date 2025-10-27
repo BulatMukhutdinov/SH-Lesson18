@@ -1,10 +1,10 @@
-package tat.mukhutdinov.lesson20
+package tat.mukhutdinov.juiceTracker
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
-import tat.mukhutdinov.lesson20.databinding.ActivityMainBinding
+import tat.mukhutdinov.juiceTracker.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

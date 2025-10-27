@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson20
+package tat.mukhutdinov.juiceTracker
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,11 +9,11 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
-import tat.mukhutdinov.lesson20.databinding.FragmentTrackerBinding
-import tat.mukhutdinov.lesson20.ui.AppViewModelProvider
-import tat.mukhutdinov.lesson20.ui.JuiceListAdapter
-import tat.mukhutdinov.lesson20.ui.TrackerViewModel
 import kotlinx.coroutines.launch
+import tat.mukhutdinov.juiceTracker.databinding.FragmentTrackerBinding
+import tat.mukhutdinov.juiceTracker.ui.AppViewModelProvider
+import tat.mukhutdinov.juiceTracker.ui.JuiceListAdapter
+import tat.mukhutdinov.juiceTracker.ui.TrackerViewModel
 
 class TrackerFragment : Fragment() {
 

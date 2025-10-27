@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson20.data
+package tat.mukhutdinov.juiceTracker.data
 
 import android.content.Context
 import androidx.room.Database
@@ -6,8 +6,9 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 
 @Database(entities = [Juice::class], version = 1)
-abstract class AppDatabase: RoomDatabase() {
+abstract class AppDatabase : RoomDatabase() {
     abstract fun juiceDao(): JuiceDao
+
     companion object {
         @Volatile
         private var INSTANCE: AppDatabase? = null

@@ -1,10 +1,10 @@
-package tat.mukhutdinov.lesson20.data
+package tat.mukhutdinov.juiceTracker.data
 
 import android.graphics.Color
 import androidx.annotation.StringRes
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import tat.mukhutdinov.lesson20.R
+import tat.mukhutdinov.juiceTracker.R
 
 @Entity
 data class Juice(

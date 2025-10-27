@@ -1,8 +1,8 @@
-package tat.mukhutdinov.lesson20
+package tat.mukhutdinov.juiceTracker
 
 import android.app.Application
-import tat.mukhutdinov.lesson20.data.AppContainer
-import tat.mukhutdinov.lesson20.data.AppDataContainer
+import tat.mukhutdinov.juiceTracker.data.AppContainer
+import tat.mukhutdinov.juiceTracker.data.AppDataContainer
 
 class JuiceTrackerApplication : Application() {
     /**

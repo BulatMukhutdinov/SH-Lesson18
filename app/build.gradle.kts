@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace = "tat.mukhutdinov.lesson20"
-    compileSdk = 34
+    namespace = "tat.mukhutdinov.juiceTracker"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "tat.mukhutdinov.lesson20"
+        applicationId = "tat.mukhutdinov.juicetracker"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 

@@ -5,8 +5,7 @@
     app:startDestination="@id/trackerFragment">
     <fragment
         android:id="@+id/trackerFragment"
-        android:name="tat.mukhutdinov.lesson20.TrackerFragment"
+        android:name="tat.mukhutdinov.juiceTracker.TrackerFragment"
         android:label="fragment_tracker"
-        tools:layout="@layout/fragment_tracker" >
-    </fragment>
+        tools:layout="@layout/fragment_tracker"></fragment>
 </navigation>

@@ -1,13 +1,13 @@
-package tat.mukhutdinov.lesson20.ui
+package tat.mukhutdinov.juiceTracker.ui
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import tat.mukhutdinov.lesson20.data.Juice
-import tat.mukhutdinov.lesson20.data.JuiceColor
-import tat.mukhutdinov.lesson20.databinding.ListItemBinding
+import tat.mukhutdinov.juiceTracker.data.Juice
+import tat.mukhutdinov.juiceTracker.data.JuiceColor
+import tat.mukhutdinov.juiceTracker.databinding.ListItemBinding
 
 class JuiceListAdapter(
     private var onEdit: (Juice) -> Unit,

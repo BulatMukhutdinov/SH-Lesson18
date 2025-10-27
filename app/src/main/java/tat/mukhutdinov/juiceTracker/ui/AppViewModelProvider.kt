@@ -1,11 +1,11 @@
-package tat.mukhutdinov.lesson20.ui
+package tat.mukhutdinov.juiceTracker.ui
 
 import android.app.Application
 import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory
 import androidx.lifecycle.viewmodel.CreationExtras
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import tat.mukhutdinov.lesson20.JuiceTrackerApplication
+import tat.mukhutdinov.juiceTracker.JuiceTrackerApplication
 
 object AppViewModelProvider {
     val Factory = viewModelFactory {
@@ -19,6 +19,7 @@ object AppViewModelProvider {
         }
     }
 }
+
 /**
  * Extension function to query for [Application] object and returns an instance of
  * [JuiceTrackerApplication].

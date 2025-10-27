@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson20.data
+package tat.mukhutdinov.juiceTracker.data
 
 import androidx.room.Dao
 import androidx.room.Delete
