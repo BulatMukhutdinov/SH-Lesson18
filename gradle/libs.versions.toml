@@ -49,3 +49,4 @@ kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 navigation-safeargs = { id = "androidx.navigation.safeargs", version.ref = "navigation" }
 navigation-safeargs-kotlin = { id = "androidx.navigation.safeargs.kotlin" }
 ksp = { id = "com.google.devtools.ksp", version = "2.3.0" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
