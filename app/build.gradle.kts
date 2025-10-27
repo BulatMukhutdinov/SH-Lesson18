@@ -34,10 +34,20 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.3"
     }
 }
 
 dependencies {
+
+    implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.material3)
+    implementation(libs.accompanist.themeadapter.material3)
+    debugImplementation(libs.androidx.ui.tooling)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
