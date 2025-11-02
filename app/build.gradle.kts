@@ -40,6 +40,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.play.services.ads)
     implementation(libs.material.icons.extended)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
