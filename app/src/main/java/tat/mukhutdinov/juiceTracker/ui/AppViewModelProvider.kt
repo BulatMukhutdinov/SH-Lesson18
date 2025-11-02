@@ -9,19 +9,15 @@ import tat.mukhutdinov.juiceTracker.JuiceTrackerApplication
 
 object AppViewModelProvider {
     val Factory = viewModelFactory {
-        // Initializer for ItemEntryViewModel
+        // Initializer for JuiceTrackerViewModel
         initializer {
-            EntryViewModel(juiceTrackerApplication().container.trackerRepository)
-        }
-        // Initializer for TrackerViewModel
-        initializer {
-            TrackerViewModel(juiceTrackerApplication().container.trackerRepository)
+            JuiceTrackerViewModel(juiceTrackerApplication().container.juiceRepository)
         }
     }
 }
 
 /**
- * Extension function to query for [Application] object and returns an instance of
+ * Extension function to queries for [Application] object and returns an instance of
  * [JuiceTrackerApplication].
  */
 fun CreationExtras.juiceTrackerApplication(): JuiceTrackerApplication =

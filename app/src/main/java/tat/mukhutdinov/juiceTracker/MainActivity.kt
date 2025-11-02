@@ -1,18 +1,19 @@
 package tat.mukhutdinov.juiceTracker
 
 import android.os.Bundle
-import android.view.LayoutInflater
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.WindowCompat
-import tat.mukhutdinov.juiceTracker.databinding.ActivityMainBinding
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import tat.mukhutdinov.juiceTracker.ui.JuiceTrackerApp
+import tat.mukhutdinov.juiceTracker.ui.theme.JuiceTrackerTheme
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        WindowCompat.setDecorFitsSystemWindows(window, false)
-        val binding = ActivityMainBinding.inflate(LayoutInflater.from(this))
-        setContentView(binding.root)
-        setSupportActionBar(binding.toolbar)
+        setContent {
+            JuiceTrackerTheme {
+                JuiceTrackerApp()
+            }
+        }
     }
 }

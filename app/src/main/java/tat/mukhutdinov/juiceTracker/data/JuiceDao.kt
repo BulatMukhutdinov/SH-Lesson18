@@ -7,13 +7,13 @@ import androidx.room.Query
 import androidx.room.Update
 import kotlinx.coroutines.flow.Flow
 
+/**
+ * Juice Data Access Object which contains methods to access and modify Juice table in Room DB
+ */
 @Dao
 interface JuiceDao {
     @Query("SELECT * FROM juice")
     fun getAll(): Flow<List<Juice>>
-
-    @Query("SELECT * FROM juice WHERE id = :id")
-    fun get(id: Long): Flow<Juice>
 
     @Insert
     suspend fun insert(juice: Juice)
